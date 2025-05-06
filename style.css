@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #f7f4f7;
     font-family: "Source Sans 3";
     font-optical-sizing: auto;
     font-style: normal;
@@ -19,13 +19,14 @@ body {
 
   /* nav bar */
   nav ul {
-    background-color: lavender;
+    background-color: #c0b4c5;
     list-style: none;
     margin: 0;
     display: flex;
     padding: 1em;
     position: sticky;
     justify-content: flex-end;
+    border-radius: 5px 5px 5px 5px;
   }
   
   /* nav items */
@@ -48,5 +49,21 @@ body {
   
   /* nav hover */
   nav a:hover {
-    color: white; /* light blue on hover */
+    color: white;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 2em;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #c0b4c5;
   }
