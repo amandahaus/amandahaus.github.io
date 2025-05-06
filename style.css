@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  /* nav bar */
+  nav ul {
+    background-color: lavender;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 1em;
+    position: sticky;
+    justify-content: flex-end;
+  }
+  
+  /* nav items */
+  nav li {
+    margin-right: 1em;
+  }
+
+  nav li:last-child {
+    margin-right: 0.2em; /* hug right */
+  }
+  
+  /* nav links */
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    transition: color 0.4s ease;
+  }
+  
+  /* nav hover */
+  nav a:hover {
+    color: white; /* light blue on hover */
+  }
