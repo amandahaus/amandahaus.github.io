@@ -1,1 +1,1 @@
-# amandahaus.github.io
+Portfolio in progress.
