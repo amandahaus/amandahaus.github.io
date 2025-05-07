@@ -58,6 +58,7 @@ body {
     justify-content: center;
     margin-top: 2em;
     padding: 2em;
+    gap: 2em;
   }
   
   .profile-pic {
@@ -66,4 +67,29 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #c0b4c5;
+  }
+
+  .connect-links {
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+  .connect-links a {
+    background-color: #c0b4c5;
+    padding: 0.4em;
+    margin: 0 0.5em;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s ease;
+  }
+  
+  .connect-links a:hover {
+    color: white;
+  }
+
+  .name-and-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
