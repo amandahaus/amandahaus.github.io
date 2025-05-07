@@ -10,11 +10,17 @@ body {
     text-align: center;
     font-family: "Ballet";
   }
+
+  h2 {
+    color: black;
+    text-align: center;
+    font-family: "Ballet";
+    font-size: 1.5em;
+  }
   
   p {
     font-size: 20px;
     color: black;
-    text-align: center;
   }
 
   /* nav bar */
@@ -56,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 7em;
     padding: 2em;
     gap: 2em;
   }
@@ -92,4 +98,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .bio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
+    padding: 12em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .bio-pic {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #c0b4c5;
+  }
+  
+  .bio-text {
+    max-width: 800px;
+    font-size: 1em;
+    line-height: 1.2;
+    color: black;
+    text-align: left
   }
