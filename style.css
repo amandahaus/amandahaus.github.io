@@ -137,6 +137,7 @@ body {
   width: 90%;
   max-width: 800px;
   margin: 2em auto;
+  margin-bottom: 3em;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   background-color: white;
@@ -189,6 +190,9 @@ body {
 }
 
 .experience-description {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   font-style: italic;
   font-size: 1.2em;
   color: #666;
