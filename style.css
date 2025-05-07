@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #f7f4f7;
     font-family: "Source Sans 3";
     font-optical-sizing: auto;
     font-style: normal;
@@ -9,23 +9,31 @@ body {
     color: black;
     text-align: center;
     font-family: "Ballet";
+    font-size: 2.3em;
+  }
+
+  h2 {
+    color: black;
+    text-align: center;
+    font-family: "Ballet";
+    font-size: 1.5em;
   }
   
   p {
     font-size: 20px;
     color: black;
-    text-align: center;
   }
 
   /* nav bar */
   nav ul {
-    background-color: lavender;
+    background-color: #c0b4c5;
     list-style: none;
     margin: 0;
     display: flex;
     padding: 1em;
     position: sticky;
     justify-content: flex-end;
+    border-radius: 5px 5px 5px 5px;
   }
   
   /* nav items */
@@ -48,5 +56,79 @@ body {
   
   /* nav hover */
   nav a:hover {
-    color: white; /* light blue on hover */
+    color: white;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7em;
+    padding: 2em;
+    gap: 2em;
+  }
+  
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #c0b4c5;
+  }
+
+  .connect-links {
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+  .connect-links a {
+    background-color: #c0b4c5;
+    padding: 0.4em;
+    margin: 0 0.5em;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s ease;
+  }
+  
+  .connect-links a:hover {
+    color: white;
+  }
+
+  .name-and-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
+    padding: 12em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .bio-pic {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #c0b4c5;
+  }
+  
+  .bio-text {
+    max-width: 800px;
+    font-size: 1em;
+    line-height: 1.2;
+    color: black;
+    text-align: left
+  }
+
+  .connect-links i {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    font-size: 1.1em;
+    vertical-align: middle;
   }
