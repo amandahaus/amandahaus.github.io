@@ -132,3 +132,87 @@ body {
     font-size: 1.1em;
     vertical-align: middle;
   }
+
+  .experience-card {
+  width: 90%;
+  max-width: 800px;
+  margin: 2em auto;
+  margin-bottom: 3em;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  overflow: hidden;
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 1em;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 1em;
+  border-radius: 10px;
+}
+
+.header-text h2 {
+  margin: 0;
+  font-weight: normal;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: "Source Sans 3";
+}
+
+.header-text h3 {
+  margin: 0.2em 0 0 0;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #4a4a4a;
+}
+
+.experience-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2em;
+  padding-top: 0em;
+  background-color: #ffffff;
+}
+
+.company-description {
+  font-size: 1em;
+  color: #4a4a4a;
+  margin-top: 1.2em;
+  margin-bottom: 0em;
+}
+
+.experience-description {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #666;
+  margin-top: 0.8em;
+  margin-bottom: 0em;
+}
+
+.experience-bullets {
+  padding-left: 1.2em;
+  list-style-type: disc;
+  color: #333;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+.skills {
+  color: #333;
+  line-height: 1.5em;
+  font-size: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
