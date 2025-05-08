@@ -148,12 +148,12 @@ body {
   display: flex;
   align-items: center;
   background-color: #f4f4f4;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .company-logo {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   margin-right: 1em;
   border-radius: 10px;
@@ -162,14 +162,15 @@ body {
 .header-text h2 {
   margin: 0;
   font-weight: normal;
-  font-size: 1.4em;
+  text-align: left;
+  font-size: 1.2em;
   font-family: "Source Sans 3";
 }
 
 .header-text h3 {
   margin: 0.2em 0 0 0;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #4a4a4a;
 }
 
@@ -194,7 +195,7 @@ body {
   justify-content: space-between;
   width: 100%;
   font-style: italic;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #666;
   margin-top: 0.8em;
   margin-bottom: 0em;
