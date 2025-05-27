@@ -1,5 +1,5 @@
-body {
-    background-color: #f7f4f7;
+  body {
+    background-color: #ffffff;
     font-family: "Source Sans 3";
     font-optical-sizing: auto;
     font-style: normal;
@@ -26,7 +26,7 @@ body {
 
   /* nav bar */
   nav ul {
-    background-color: #c0b4c5;
+    background-color: #ccc6d7;
     list-style: none;
     margin: 0;
     display: flex;
@@ -42,7 +42,7 @@ body {
   }
 
   nav li:last-child {
-    margin-right: 0.2em; /* hug right */
+    margin-right: 0.2em;
   }
   
   /* nav links */
@@ -63,26 +63,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 7em;
+    margin-top: 6em;
     padding: 2em;
     gap: 2em;
   }
   
   .profile-pic {
     width: 300px;
-    height: 400px;
+    height: 350px;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid #c0b4c5;
+    border: 2px solid #ccc6d7;
   }
 
   .connect-links {
     text-align: center;
     font-size: 1.1em;
+    margin-top: 2em;
   }
   
   .connect-links a {
-    background-color: #c0b4c5;
+    background-color: #ccc6d7;
     padding: 0.4em;
     margin: 0 0.5em;
     border-radius: 5px 5px 5px 5px;
@@ -96,9 +97,22 @@ body {
   }
 
   .name-and-links {
-    display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+  }
+
+  .scroll-indicator {
+  text-align: center;
+  margin-top: 2.5em;
+  font-size: 2em;
+  color: #ccc6d7;
+  animation: bounce 1s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(6px);}
   }
 
   .bio {
@@ -106,24 +120,24 @@ body {
     align-items: flex-start;
     justify-content: center;
     gap: 2em;
-    padding: 12em 2em;
+    padding: 8em 2em;
     max-width: 1000px;
     margin: 0 auto;
   }
   
   .bio-pic {
-    width: 300px;
+    width: 450px;
     height: auto;
     border-radius: 10px;
-    border: 2px solid #c0b4c5;
+    border: 2px solid #ccc6d7;
   }
   
   .bio-text {
     max-width: 800px;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.2;
     color: black;
-    text-align: left
+    text-align: left;
   }
 
   .connect-links i {
@@ -132,6 +146,14 @@ body {
     font-size: 1.1em;
     vertical-align: middle;
   }
+
+  .page-footer {
+  text-align: right;
+  padding: 0.1em 4em;
+  background-color: #ccc6d7;
+  font-size: 0.1em;
+  color: #777;
+}
 
   .experience-card {
   width: 90%;
